@@ -1,6 +1,6 @@
 import {useCallback, useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
-import Movie from "../components/Movie";
+import Movie from "../components/movie/Movie";
 
 function Detail() {
   const [loading, setLoading] = useState(true);
